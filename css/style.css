@@ -1,0 +1,21 @@
+body {
+    background-color: #b91450;
+}
+
+h1{
+    color: white;
+}
+
+.bg-white{
+    background-color: white;
+    /**debug**/
+    min-height: 200px;
+}
+
+.color-scarlet{
+    color:#b91450 ;
+}
+
+.border-scarlet{
+    border-color: #b91450;
+}
