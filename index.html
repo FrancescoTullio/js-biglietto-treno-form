@@ -34,7 +34,7 @@
 
                         <div class="col row mt-2">
                             <label for="eta" class="form-biglietto color-scarlet col-12">Fascia d'età</label>
-                            <select class="form-select border-scarlet" name="title" id="title">
+                            <select class="form-select border-scarlet" name="eta" id="eta">
                                 <option value="1">minorenne</option>
                                 <option value="2">maggiorenne</option>
                                 <option value="3">over 65</option>
@@ -49,32 +49,57 @@
 
                     <div class="row justify-content-center mt-4 pb-4">
                         <div class="col-1">
-                            <button type="button" class="btn bg-grey border-secondary color-scarlet">Genera</button>
+                            <button type="submit" id="submit-btn" class="btn bg-grey border-secondary color-scarlet">Genera</button>
                         </div>
                         <div class="col-1">
-                            <button type="button" class="btn bg-grey border-secondary color-scarlet">Annulla</button>
+                            <button type="reset" class="btn bg-grey border-secondary color-scarlet">Annulla</button>
                         </div>
 
                     </div>
-
-
-
-
-
                 </form>
-
-
-
-
             </div>
-
-
+    </section>
+    <!--/form-section-->
+    <!--result-section-->
+    <section id="result" class="mt-5 d-none">
+        <div class="container">
+            <h2 class="text-center  text-light">il tuo biglietto</h2>
+            <div class="bg-white ">
+                <div class="container">
+                <h2 class="text-left pt-2">dettagli passeggeri</h2>
+                <div class="row">
+                    <div class="col-3 bg-secondary">
+                        <h3>nome passeggero</h3>
+                        <p class="user">ciao</p>
+                    </div>
+                    <div class="col-9 border-top border-bottom border-secondary-subtle row">
+                        <div class="col-3">
+                            <h3>offerta</h3>
+                            <p class="tipo-di-biglietto">ciao</p>
+                        </div>
+                        <div class="col-3">
+                            <h3>carrozza</h3>
+                            <p class="n-carrozza">ciao</p>
+                        </div>
+                        <div class="col-3">
+                            <h3>codice cp</h3>
+                            <p class="code">ciao</p>
+                        </div>
+                        <div class="col-3">
+                            <h3>costo</h3>
+                            <p class="prezzo-finale">ciao</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
 
 
         </div>
 
+
     </section>
-    <!--/form-section-->
+    <!--/result-section-->
     <!--bootstrapjs-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

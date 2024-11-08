@@ -6,8 +6,8 @@ body {
 
 .bg-white{
     background-color: white;
-    /**debug
-    min-height: 200px;**/
+    /**debug**/
+    min-height: 200px;
 }
 
 .bg-grey{
@@ -17,6 +17,8 @@ body {
 .color-scarlet{
     color:#b91450 ;
 }
+
+
 
 
 
